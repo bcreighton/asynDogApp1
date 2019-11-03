@@ -10,7 +10,21 @@
 </head>
 <body>
     <h1>Generate Random Dog Photos!</h1>
+    <p>Generate a specified number of dog photos in the console. Using the form below insert a number between 1 and 50; open the console to watch the magic happen!</p>
 
+    <form action="" class="dogImageForm">
+        <div class="dogImageInputContainer">
+            <label for="dogs">Enter Number Of Dogs:</label>
+            <input type="text" class="dogImageInput" name="dogs" id="dogs" value="3" required>
+        </div>
+        <div class="dogImgeInputContainer">
+            <button type="submit">Generate Photos!</button>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
